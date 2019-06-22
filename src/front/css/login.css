@@ -1,0 +1,161 @@
+.topbar {
+	width:100%;
+	height: 35px;
+	background:#efefef;
+}
+.topbar .left {
+	line-height: 35px;
+	float:left;
+}
+.topbar .right {
+	line-height: 35px;
+	float:right;
+}
+.topbar .left span,
+.topbar .right span {
+	display: inline-block;
+	margin-right: 16px;
+}
+.topbar .left  a,
+.topbar .right  a {
+    color:#8f8d8d;
+    font-size:14px;
+}
+.topbar a:hover {
+	color:#ef4c51;
+}
+/*========  header  =========*/
+.header {
+	width:100%;
+	height:74px;
+	/*background:pink;*/
+}
+.header .container {
+	position: relative;
+}
+.header a {
+	color:black;
+}
+.header .container span {
+	display:inline-block;
+	height:74px;
+	margin:0 30px;
+	/*float:left;*/
+}
+.header span:nth-child(1) {
+	position: absolute;
+	left:0;
+	top:0;
+}
+.header span:nth-child(2) {
+	font-size: 36px;
+	line-height:74px;
+	font-weight:600;
+	margin-left:0;
+}
+.header span:nth-child(2) a {
+    color:#ef4c51;
+}
+.header span img {
+	height:74px;
+}
+.header span:nth-child(3) {
+	padding:6px;
+	background:#fedfe4;
+	border:1px solid red;
+	font-size:12px;
+	height:20px;
+	line-height:20px;
+	position:absolute;
+	left:244px;
+	top:20px;
+}
+/*=========main==========*/
+.main {
+	width:100%;
+	height:520px;
+	background:url("../../img/bg4.jpg");
+	background-size:cover;
+	position: relative;
+}
+.main .m-title {
+	font-size:18px;
+	font-weight:bold;
+	margin:30px 0 10px 30px;
+}
+.main .login {
+	position:absolute;
+	right:100px;
+	top:80px;
+	width:350px;
+	height:350px;
+	background:#fff;
+}
+.username,.password {
+	box-sizing:border-box;
+	width:300px;
+	height:42px;
+	margin:20px auto;
+}
+#username,#password {
+	width:84%;
+	height:99%;
+	outline: none;
+	padding:5px;
+	box-sizing: border-box;
+}
+#submit {
+	width:84%;
+	height:40px;
+	margin:0 auto;
+	color:#fff;
+	line-height: 40px;
+	background:red;
+	border-radius:6px;
+	font-weight:bold;
+	outline: none;
+	margin-left:30px;
+	border:none;
+}
+.username div,.password div {
+	float: left;
+}
+.board {
+	width:42px;
+	height:42px;
+	background:#ccc;
+	color:#fff;
+	text-align:center;
+	line-height:42px;
+	font-size:20px;
+}
+.sub-func {
+	position:absolute;
+	right:100px;
+	bottom: 100px;
+	width:208px;
+	height:40px;
+
+}
+.sub-func span a {
+	color: #222;
+	margin-left:20px;
+}
+.sub-func span a:hover {
+	color:red;
+}
+.forget .free-reg {
+    margin-left:50px;
+}
+/*=======footer===========*/
+.footer .container {
+	position:relative;
+	top:25px;
+}
+.footer .container p {
+	height:40px;
+	line-height:40px;
+	font-size: 12px;
+	color:#999;
+	border-top:1px solid #ccc;
+}
